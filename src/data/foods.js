@@ -4,14 +4,14 @@ const foods = [
     name: "Pizza",
     price: 299,
     image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
-  category: "Pizza"
+    category: "Pizza"
 },
   {
     id: 2,
     name: "Burger",
     price: 199,
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
-    category: "burger"
+    category: "Burger"
   },
   {
     id: 3,
@@ -37,174 +37,150 @@ const foods = [
   
 
 {
-  id: 7,
+  id: 6,
   name: "Paneer Tikka",
   price: 279,
-  category: "Starter",
-  image: "https://images.unsplash.com/photo-1601050690597-df0568f70950"
+  image: "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+  category: "Starter"
 },
 {
-  id: 8,
+  id: 7,
   name: "Ice Cream",
   price: 149,
-  category: "Dessert",
-  image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb"
+  image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+  category: "Dessert"
 },
 
 {
-    id: 6,
+    id: 8,
     name: "Maggi",
     price: 99,
-    category: "Snacks",
-    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d"
-  },
-
-  {
-    id: 7,
-    name: "Dal Rice",
-    price: 159,
-    category: "Meals",
-    image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe"
-  },
-
-  {
-    id: 8,
-    name: "Chapathi Curry",
-    price: 179,
-    category: "Meals",
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950"
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d",
+    category: "Snacks"
   },
 
   {
     id: 9,
-    name: "Potato Curry",
-    price: 139,
-    category: "Meals",
-    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+    name: "Dal Rice",
+    price: 159,
+    image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+    category: "Meals"
   },
 
   {
     id: 10,
-    name: "Paneer Butter Masala",
-    price: 259,
-    category: "Meals",
-    image: "https://images.unsplash.com/photo-1631452180539-96aca7d48617"
+    name: "Chapathi Curry",
+    price: 179,
+    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+    category: "Meals"
   },
 
   {
     id: 11,
-    name: "Noodles",
-    price: 189,
-    category: "Chinese",
-    image: "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841"
+    name: "Potato Curry",
+    price: 139,
+    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+     category: "Meals"
   },
 
   {
     id: 12,
-    name: "Dosa",
-    price: 129,
-    category: "South Indian",
-    image: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976"
-  },
-   {
-    id: 13,
-    name: "Idli",
-    price: 99,
-    category: "South Indian",
-    image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc"
-  },
-
-   {
-    id: 14,
-    name: "Vada",
-    price: 89,
-    category: "South Indian",
-    image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84"
-  },
-
-   {
-    id: 15,
-    name: "Gulab Jamun",
-    price: 99,
-    category: "Dessert",
-    image: "https://images.unsplash.com/photo-1605197161470-5cfd3c7d2f41"
+    name: "Paneer Butter Masala",
+    price: 259,
+    image: "https://images.unsplash.com/photo-1631452180539-96aca7d48617",
+    category: "Meals"
   },
 
   {
+    id: 13,
+    name: "Noodles",
+    price: 189,
+    image: "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841",
+    category: "Chinese"
+  },
+
+  {
+    id: 14,
+    name: "Dosa",
+    price: 129,
+    image: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+    category: "South Indian"
+  },
+   {
+    id: 15,
+    name: "Idli",
+    price: 99,
+    image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc",
+    category: "South Indian"
+  },
+
+   {
     id: 16,
-    name: "Fresh Lime Juice",
-    price: 79,
-    category: "Drinks",
-    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc"
+    name: "Vada",
+    price: 89,
+    image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+    category: "South Indian"
   },
 
   {
     id: 17,
+    name: "Fresh Lime Juice",
+    price: 79,
+    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc",
+    category: "Drinks"
+  },
+
+  {
+    id: 18,
     name: "Tea",
     price: 49,
-    category: "Drinks",
-    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3"
+    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3",
+    category: "Drinks"
   },
 {
-    id: 18,
+    id: 19,
     name: "French Fries",
     price: 149,
-    category: "Snacks",
-    image: "https://images.unsplash.com/photo-1576107232684-1279f390859f"
+    image: "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+    category: "Snacks"
   },
 {
-  id: 19,
+  id: 20,
   name: "Cold Coffee",
   price: 129,
-  category: "Drinks",
-  image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735"
+  image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735",
+  category: "Drinks"
 },
-{
-  id: 20,
-  name: "Chocolate Cake",
-  price: 180,
-  category: "Dessert",
-  image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
-},
-
 {
   id: 21,
-  name: "Lassi",
-  price: 80,
-  category: "Drinks",
-  image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab"
+  name: "Chocolate Cake",
+  price: 180,
+  image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+   category: "Dessert"
 },
 
 {
   id: 22,
-  name: "Mango Juice",
-  price: 90,
-  category: "Drinks",
-  image: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8"
+  name: "Lassi",
+  price: 80,
+  image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab",
+  category: "Drinks"
 },
 
 {
   id: 23,
-  name: "Rasgulla",
+  name: "Mango Juice",
   price: 90,
-  category: "Dessert",
-  image: "https://images.unsplash.com/photo-1605197161470-5cfd3c7d2f41"
+  image: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8",
+  category: "Drinks"
 },
 
 {
   id: 24,
-  name: "Chole Bhature",
-  price: 160,
-  category: "Meals",
-  image: "https://images.unsplash.com/photo-1626132647523-66d8eec0f6e6"
-},
-
-{
-  id: 25,
   name: "Poori Bhaji",
   price: 100,
-  category: "Meals",
-  image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+  image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+  category: "Meals"
 }
 ];
 
