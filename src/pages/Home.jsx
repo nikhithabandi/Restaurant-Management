@@ -2,7 +2,7 @@ import { useState } from "react";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import FoodCard from "../components/FoodCard";
-import foods from "../data/foods";
+import foods from "../data/Foods";
 
 function Home({ cartItems, addToCart, removeFromCart }) {
   const [searchTerm, setSearchTerm] = useState("");
